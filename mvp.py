@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load Excel file
-file_path = "NBA/nba_player_data.xlsx"
+file_path = "nba_player_data.xlsx"
 df = pd.read_excel(file_path, sheet_name="Sheet1")
 
 # Filter Regular Season games
